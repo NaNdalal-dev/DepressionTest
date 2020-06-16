@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Depression Test
+	</title>
+</head>
+<body>
+	<center><h3> Check your depression Test:</h3></center>
+<center>
+	<div>
+		<form action="/" method="post">
+		<table border="1">
+
+			<tr>
+				<td>
+					1)Loss of interest in work?
+				</td>
+				<td>
+					<input type="radio" name="q1" value="yes" id='y1'>
+					<label for='y1'>Yes</label>
+					<input type="radio" name="q1" value="no" id='n1'>
+					<label for='n1'>No</label>
+				</td>
+			</tr>
+
+
+			<tr>
+				<td>
+					2)Do you feel hopeless?
+				</td>
+				<td>
+					<input type="radio" name="q2" value="yes" id='y2'>
+					<label for='y2'>Yes</label>
+					<input type="radio" name="q2" value="no" id='n2'>
+					<label for='n2'>No</label>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					3)Do you feel more tired?
+				</td>
+				<td>
+					<input type="radio" name="q3" value="yes" id='y3'>
+					<label for='y3'>Yes</label>
+					<input type="radio" name="q3" value="no" id='n3'>
+					<label for='n3'>No</label>
+				</td>
+			</tr>
+
+
+			<tr>
+				<td>
+					4)Are you having trouble concentrating?
+				</td>
+				<td>
+					<input type="radio" name="q4" value="yes" id='y4'>
+					<label for='y4'>Yes</label>
+					<input type="radio" name="q4" value="no" id='n4'>
+					<label for='n4'>No</label>
+				</td>
+			</tr>
+
+
+			<tr>
+				<td>
+					5)Are you over Eating <br>or have lost Appetite for food?
+				</td>
+				<td>
+					<input type="radio" name="q5" value="yes" id='y5'>
+					<label for='y5'>Yes</label>
+					<input type="radio" name="q5" value="no" id='n5'>
+					<label for='n5'>No</label>
+				</td>
+			</tr>
+
+
+			<tr>
+				<td>
+					6)Do you have any Harmful <br> thoughts about yourself?
+				</td>
+				<td>
+					<input type="radio" name="q6" value="yes" id='y6'>
+					<label for='y6'>Yes</label>
+					<input type="radio" name="q6" value="no" id='n6'>
+					<label for='n6'>No</label>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					7)Do you feel failure?
+				</td>
+				<td>
+					<input type="radio" name="q7" value="yes" id='y7'>
+					<label for='y7'>Yes</label>
+					<input type="radio" name="q7" value="no" id='n7'>
+					<label for='n7'>No</label>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					8)Do you have Trouble in sleeping?
+				</td>
+				<td>
+					<input type="radio" name="q8" value="yes" id='y8'>
+					<label for='y8'>Yes</label>
+					<input type="radio" name="q8" value="no" id='n8'>
+					<label for='n8'>No</label>
+				</td>
+			</tr>	
+			<tr>
+				<td>
+					<center>
+					<input type="submit" name="submitTEST" value="Test">
+					</center>
+				</td>
+			</tr>		
+			
+		</table>
+		</form>
+	</div>
+</center>
+<center>
+	<h4 style="color: green;">
+		{{none_}}
+	</h4>
+</center>
+<center>
+	<h4 style="color: orange;">
+		{{little}}
+	</h4>
+</center>
+<center>
+	<h4 style="color: red;">
+		{{desp}}
+	</h4>
+</center>
+<center>
+	<h4 style="color: red;">{{ error }}</h4>
+</center>
+</body>
+</html>
