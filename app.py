@@ -20,7 +20,7 @@ def result():
 		print('no:',no)
 		if (yes<=3):
 			return render_template('index.html',none_='You have mild depression.')
-		elif (yes==4):
+		elif (yes>3 and yes<=5):
 			return render_template('index.html',little='You have little depression.')
 		elif(yes>=5):
 			return render_template('index.html',desp='You have high depression.Please consult the doctor')
